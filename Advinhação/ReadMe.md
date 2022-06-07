@@ -5,7 +5,7 @@ Para compilar utilize:
 
 ------------------------------------------------------------
 
-O jogo tem 3 niveis de dificuldade, fáceil, médio e difícil.
+O jogo tem 3 niveis de dificuldade, fácil, médio e difícil.
 
 O objetivo central do jogo é advinhar o número de dois digitos gerado automaticamente pela máquina.
 
