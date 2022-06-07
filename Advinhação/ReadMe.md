@@ -1,4 +1,4 @@
-# Olá, seja bem vindo ao meu primeiro projeto desenvolvido a partir do curso de programação em C da Alura.
+# Olá, seja bem vindo ao meu jogo de advinhação em C.
 
 Para compilar utilize:
     gcc advinhação.c -o play.out
