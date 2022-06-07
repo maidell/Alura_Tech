@@ -41,7 +41,7 @@ int main()
 	printf ("(1) Fácil, (2) Médio, (3) Difícil\n");
 	printf ("Escolha:");
 	scanf ("%d", &mode);
-    printf ("--------------------------------------\n");
+    	printf ("--------------------------------------\n");
 
 	switch (mode)
 	{
@@ -65,27 +65,28 @@ int main()
 	
     while (guess != secret_num && counter <= try)
     {
-		if (try == counter )
-		{
-			printf ("Essa é sua ultima tentativa, pense bem!\n");
-		}
-        //tries
+	if (try == counter )
+	{
+		printf ("Essa é sua ultima tentativa, pense bem!\n");
+	}
+        
+	//tries
         printf ("Tentativa %d de %d\n",counter, try);
 
         //Guess number
         printf ("Qual é o seu chute?\n");
         scanf("%d", &guess);
         printf ("Você chutou %d\n", guess);
-		printf ("----------------------------------------------------\n");
+	printf ("----------------------------------------------------\n");
 
         //Validation
-		if (guess < 0)
-		{
-			printf ("Você não pode chutar um numero negativo\n");
-			printf ("Tente novamente\n");
-			printf ("----------------------------------------------------\n");
-			continue;
-		}
+	if (guess < 0)
+	{
+		printf ("Você não pode chutar um numero negativo\n");
+		printf ("Tente novamente\n");
+		printf ("----------------------------------------------------\n");
+		continue;
+	}
 
         else if (guess > secret_num && counter != try)
         {
@@ -93,21 +94,23 @@ int main()
             printf ("Você errou, tente novamente!\n");
             printf ("----------------------------------------------------\n");
         }
-        else if (guess < secret_num && counter != try)
+        
+	else if (guess < secret_num && counter != try)
         {
             printf ("Seu chute foi menor que o numero secreto!\n");
             printf ("Você errou, tente novamente!\n");
             printf ("----------------------------------------------------\n");
         }
-		else if (guess != secret_num && counter == try)
+	
+	else if (guess != secret_num && counter == try)
         {
-			printf ("Você errou, jogue novamente outra partida!\n");
-            printf ("----------------------------------------------------\n");
+		printf ("Você errou, jogue novamente outra partida!\n");
+        	printf ("----------------------------------------------------\n");
         }
 		double lostpoints = abs(guess - secret_num) / (double) 2;
 		points = points - lostpoints;
 
-    counter++;
+    	counter++;
     }
 	
 	if (guess == secret_num)
