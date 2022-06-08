@@ -1,7 +1,7 @@
-# Olá, seja bem vindo ao meu jogo de advinhação em C.
+# Olá, seja bem vindo ao meu jogo de adivinhação em C.
 
 Para compilar utilize:
-    gcc advinhação.c -o play.out
+    gcc adivinhação.c -o play.out
 
 ------------------------------------------------------------
 
