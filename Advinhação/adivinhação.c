@@ -5,9 +5,9 @@
 int main() 
 {
 	int right;
-    int counter = 1;
-    int try;
-    int guess;
+	int counter = 1;
+	int try;
+	int guess;
 	double points = 1000;
 	int mode;
 
@@ -19,7 +19,7 @@ int main()
 	printf("   /\\                                                        /\\	\n");
 	printf("  |  |                                                      |  |	\n");
 	printf(" /----\\                  Seja bem vindo!                   /----\\	\n");
-	printf("[______]        Ao jogo de advinha de Mateus Maidel.      [______]	\n");
+	printf("[______]        Ao jogo de adivinha de Mateus Maidel.      [______]	\n");
 	printf(" |    |         _____                        _____         |    |	\n");
 	printf(" |[]  |        [     ]                      [     ]        |  []|	\n");
 	printf(" |    |       [_______][ ][ ][ ][][ ][ ][ ][_______]       |    |	\n");
@@ -33,7 +33,7 @@ int main()
 	printf("   |           |     |   |      ||      |   |     |           |		\n");
 	printf(" /''           |     |   |o     ||     o|   |     |           ''\\	\n");
 	printf("[_____________[_______]--'------''------'--[_______]_____________]	\n");
-	printf("\nVocê precisa advinhar um número entre 0 e 100.\n					\n");
+	printf("\nVocê precisa adivinhar um número entre 0 e 100.\n					\n");
 
 
     //Number of tries
