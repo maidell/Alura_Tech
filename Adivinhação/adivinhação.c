@@ -115,7 +115,8 @@ int main()
 	
 	if (guess == secret_num)
 	{
-		printf ("Parabens, você acertou em %d tentativas!\n", counter--);
+		counter--;
+		printf ("Parabens, você acertou em %d tentativas!\n", counter);
 	}
 	else if(guess != secret_num)
 	{
